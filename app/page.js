@@ -218,39 +218,48 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contact" className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
-          <div className="rounded-[2.5rem] border border-cyan-300/15 bg-gradient-to-br from-[#0a1930] to-[#07101d] p-8 shadow-2xl shadow-cyan-500/10 md:p-12">
-            <div className="text-sm uppercase tracking-[0.3em] text-cyan-300/80">Contacto</div>
-            <h2 className="mt-4 max-w-3xl text-3xl font-semibold tracking-tight md:text-4xl">
-              Lleva tu operación comercial a un nuevo nivel con inteligencia de datos.
-            </h2>
-            <p className="mt-4 max-w-2xl text-lg text-white/65">
-              Presenta tu caso, tus objetivos y tu operación actual. Diseñamos una propuesta enfocada en crecimiento comercial real.
-            </p>
- </div>
-          <form
-  action="https://formsubmit.co/hola@datra.com.mx"
-  method="POST"
-  className="mt-8 grid gap-4 md:grid-cols-[1fr_auto]"
->
-  <input
-    type="email"
-    name="email"
-    placeholder="Correo de contacto"
-    required
-    className="h-14 rounded-2xl border border-white/10 bg-white/5 px-5 text-white outline-none placeholder:text-white/35"
-  />
-
-  <input type="hidden" name="_captcha" value="false" />
-<input type="hidden" name="_next" value="https://datra.com.mx" />
-
-  <button
-    type="submit"
-    className="h-14 rounded-2xl bg-cyan-300 px-6 font-semibold text-slate-950 transition hover:scale-[1.02]"
-  >
-    Solicitar propuesta
-  </button>
-</form>
-        </section>
-      </main>
+   <section id="contact" className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
+  <div className="rounded-[2.5rem] border border-cyan-300/15 bg-gradient-to-br from-[#0a1930] to-[#07101d] p-8 shadow-2xl shadow-cyan-500/10 md:p-12">
+    
+    <div className="text-sm uppercase tracking-[0.3em] text-cyan-300/80">
+      Contacto
     </div>
+
+    <h2 className="mt-4 max-w-3xl text-3xl font-semibold tracking-tight text-white md:text-4xl">
+      Lleva tu operación comercial a un nuevo nivel con inteligencia de datos.
+    </h2>
+
+    <p className="mt-4 max-w-2xl text-lg text-white/65">
+      Presenta tu caso, tus objetivos y tu operación actual. Diseñamos una propuesta enfocada en crecimiento comercial real.
+    </p>
+
+    <form
+      action="https://formsubmit.co/hola@datra.com.mx"
+      method="POST"
+      className="mt-8 grid gap-4 md:grid-cols-[1fr_auto]"
+    >
+      <input
+        type="email"
+        name="email"
+        placeholder="Correo de contacto"
+        required
+        className="h-14 rounded-2xl border border-white/10 bg-white/5 px-5 text-white outline-none placeholder:text-white/35"
+      />
+
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="https://datra.com.mx" />
+
+      <button
+        type="submit"
+        className="h-14 rounded-2xl bg-cyan-300 px-6 font-semibold text-slate-950 transition hover:scale-[1.02]"
+      >
+        Solicitar propuesta
+      </button>
+    </form>
+
+  </div>
+</section>
+</main>
+</div>
+);
+}
