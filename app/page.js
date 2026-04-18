@@ -250,7 +250,7 @@ export default function Home() {
      <input type="hidden" name="_next" value="https://www.datra.com.mx/gracias" />
       <button
         type="submit"
-        className="h-14 rounded-2xl bg-cyan-300 px-6 font-semibold text-slate-950 transition hover:scale-[1.02]"
+        className="h-14 rounded-2xl bg-gradient-to-r from-cyan-300 to-sky-400 px-6 font-semibold text-slate-950 shadow-lg shadow-cyan-500/20 transition duration-300 hover:scale-[1.02] hover:shadow-cyan-400/30"
       >
         Solicitar propuesta
       </button>
