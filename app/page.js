@@ -227,7 +227,7 @@ export default function Home() {
             <p className="mt-4 max-w-2xl text-lg text-white/65">
               Presenta tu caso, tus objetivos y tu operación actual. Diseñamos una propuesta enfocada en crecimiento comercial real.
             </p>
-
+ </div>
           <form
   action="https://formsubmit.co/hola@datra.com.mx"
   method="POST"
