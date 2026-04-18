@@ -255,10 +255,18 @@ export default function Home() {
         Solicitar propuesta
       </button>
     </form>
-
+          <a
+  href="https://wa.me/5213351074205?text=Hola,%20quiero%20informaci%C3%B3n"
+  target="_blank"
+  rel="noreferrer"
+  className="fixed bottom-6 right-6 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg hover:scale-105 transition"
+>
+  WhatsApp
+</a>
   </div>
 </section>
 </main>
 </div>
 );
 }
+
