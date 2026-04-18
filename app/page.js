@@ -255,13 +255,18 @@ export default function Home() {
         Solicitar propuesta
       </button>
     </form>
-          <a
-  href="https://wa.me/5213351074205?text=Hola,%20quiero%20informaci%C3%B3n"
+   <a
+ href="https://wa.me/5213351074205?text=Hola,%20quiero%20una%20propuesta%20para%20mi%20agencia%20automotriz.%20%C2%BFPodemos%20hablar?"
   target="_blank"
   rel="noreferrer"
-  className="fixed bottom-6 right-6 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg hover:scale-105 transition"
+  className="fixed bottom-6 right-6 z-30 flex items-center gap-3 rounded-full border border-emerald-400/30 bg-[#0b1a14]/95 px-5 py-3 text-sm font-semibold text-white shadow-2xl shadow-emerald-500/20 transition hover:scale-[1.02] hover:bg-[#10231a]"
 >
-  WhatsApp
+  <span className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-500 text-white">
+    <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current" aria-hidden="true">
+      <path d="M19.05 4.91A9.82 9.82 0 0 0 12.06 2C6.65 2 2.25 6.4 2.25 11.81c0 1.73.45 3.41 1.31 4.9L2 22l5.42-1.51a9.78 9.78 0 0 0 4.64 1.18h.01c5.41 0 9.81-4.4 9.82-9.81a9.75 9.75 0 0 0-2.84-6.95Zm-6.99 15.1h-.01a8.12 8.12 0 0 1-4.13-1.13l-.3-.18-3.21.89.86-3.13-.2-.32a8.1 8.1 0 0 1-1.25-4.33c0-4.49 3.66-8.15 8.16-8.15 2.17 0 4.21.84 5.75 2.38a8.07 8.07 0 0 1 2.38 5.77c0 4.49-3.66 8.15-8.15 8.15Zm4.47-6.11c-.24-.12-1.43-.71-1.65-.79-.22-.08-.38-.12-.54.12-.16.24-.62.79-.76.95-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.17-.7-.62-1.17-1.39-1.31-1.63-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.29-.74-1.77-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.31.98 2.47c.12.16 1.69 2.58 4.1 3.62.57.25 1.02.4 1.37.51.57.18 1.09.16 1.5.1.46-.07 1.43-.58 1.63-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z" />
+    </svg>
+  </span>
+  <span className="hidden sm:inline">WhatsApp</span>
 </a>
   </div>
 </section>
