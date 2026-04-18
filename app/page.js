@@ -251,7 +251,6 @@ export default function Home() {
     Solicitar propuesta
   </button>
 </form>
-        </div>
         </section>
       </main>
     </div>
