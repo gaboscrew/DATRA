@@ -228,15 +228,29 @@ export default function Home() {
               Presenta tu caso, tus objetivos y tu operación actual. Diseñamos una propuesta enfocada en crecimiento comercial real.
             </p>
 
-            <div className="mt-8 grid gap-4 md:grid-cols-[1fr_auto]">
-              <input
-                type="email"
-                placeholder="Correo de contacto"
-                className="h-14 rounded-2xl border border-white/10 bg-white/5 px-5 text-white outline-none placeholder:text-white/35"
-              />
-              <button className="h-14 rounded-2xl bg-cyan-300 px-6 font-semibold text-slate-950 transition hover:scale-[1.02]">
-                Solicitar propuesta
-              </button>
+          <form
+  action="https://formsubmit.co/hola@datra.com.mx"
+  method="POST"
+  className="mt-8 grid gap-4 md:grid-cols-[1fr_auto]"
+>
+  <input
+    type="email"
+    name="email"
+    placeholder="Correo de contacto"
+    required
+    className="h-14 rounded-2xl border border-white/10 bg-white/5 px-5 text-white outline-none placeholder:text-white/35"
+  />
+
+  <input type="hidden" name="_captcha" value="false" />
+<input type="hidden" name="_next" value="https://datra.com.mx" />
+
+  <button
+    type="submit"
+    className="h-14 rounded-2xl bg-cyan-300 px-6 font-semibold text-slate-950 transition hover:scale-[1.02]"
+  >
+    Solicitar propuesta
+  </button>
+</form>
             </div>
           </div>
         </section>
