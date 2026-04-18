@@ -247,8 +247,7 @@ export default function Home() {
       />
 
       <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value="https://datra.com.mx" />
-
+     <input type="hidden" name="_next" value="https://www.datra.com.mx/gracias" />
       <button
         type="submit"
         className="h-14 rounded-2xl bg-cyan-300 px-6 font-semibold text-slate-950 transition hover:scale-[1.02]"
