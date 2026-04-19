@@ -152,7 +152,35 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section id="platform" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+  <div className="max-w-2xl">
+    <div className="text-sm uppercase tracking-[0.3em] text-cyan-300/80">
+      Plataforma
+    </div>
 
+    <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white md:text-4xl">
+  Así se ve la inteligencia comercial en tu agencia
+</h2>
+
+    <p className="mt-4 text-lg text-white/65">
+  Visualiza mercado, leads y desempeño en una sola vista. Menos reportes, más decisiones.
+</p>
+  </div>
+<div className="mt-12 relative">
+<div className="relative grid gap-8 lg:grid-cols-3 items-start bg-[#081a24] p-6 rounded-[2rem] border border-white/10 backdrop-blur">
+  <img
+    src="/dashboard-market.png"
+    alt="Dashboard de analítica de mercado"
+    className="lg:col-span-2 rounded-[2rem] border border-white/10 shadow-2xl shadow-cyan-500/20 transition duration-300 hover:scale-[1.03]"
+  />
+
+  <img
+    src="/dashboard-leads.png"
+    alt="Dashboard de leads y conversión"
+    className="rounded-[2rem] border border-white/10 shadow-2xl shadow-cyan-500/20 transition duration-300 hover:scale-[1.03]"
+  />
+</div>
+</section>
         <section id="services" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <div className="max-w-2xl">
             <div className="text-sm uppercase tracking-[0.3em] text-cyan-300/80">Servicios</div>
