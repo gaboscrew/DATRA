@@ -164,7 +164,7 @@ export default function Home() {
 
           <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {services.map((service) => (
-              <div key={service.title} className="rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-xl shadow-black/10">
+             <div key={service.title} className="rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/8 to-white/[0.03] p-6 shadow-xl shadow-black/10 transition duration-300 hover:-translate-y-1 hover:border-cyan-300/25 hover:shadow-2xl hover:shadow-cyan-500/10">
                 <div className="mb-4 h-12 w-12 rounded-2xl bg-gradient-to-br from-cyan-300/30 to-sky-500/20" />
                 <h3 className="text-xl font-semibold">{service.title}</h3>
                 <p className="mt-3 text-sm leading-7 text-white/65">{service.description}</p>
