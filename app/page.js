@@ -1,24 +1,24 @@
 const services = [
+ {
+  title: 'Market Intelligence',
+  description: 'Analizamos mercado, TIV, desempeño por segmento y oportunidades reales de crecimiento para agencias automotrices.',
+  icon: 'chart',
+},
+ {
+  title: 'Lead Performance',
+  description: 'Medimos calidad, origen y conversión de leads para optimizar inversión comercial y aumentar cierres.',
+  icon: 'target',
+},
   {
-    title: 'Market Intelligence',
-    description:
-      'Analizamos mercado, TIV, desempeño por segmento y oportunidades reales de crecimiento para agencias automotrices.',
-  },
+  title: 'Dashboards & BI',
+  description: 'Creamos tableros ejecutivos en tiempo real para ventas, objetivos, embudos y desempeño comercial.',
+  icon: 'screen',
+},
   {
-    title: 'Lead Performance',
-    description:
-      'Medimos calidad, origen y conversión de leads para optimizar inversión comercial y aumentar cierres.',
-  },
-  {
-    title: 'Dashboards & BI',
-    description:
-      'Creamos tableros ejecutivos en tiempo real para ventas, objetivos, embudos y desempeño comercial.',
-  },
-  {
-    title: 'Automation',
-    description:
-      'Automatizamos reportes, alertas y seguimiento para que tu equipo tome decisiones más rápido.',
-  },
+  title: 'Automation',
+  description: 'Automatizamos reportes, alertas y seguimiento para que tu equipo tome decisiones más rápido.',
+  icon: 'bolt',
+},
 ];
 
 const benefits = [
@@ -165,16 +165,39 @@ export default function Home() {
           <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {services.map((service) => (
              <div key={service.title} className="rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/8 to-white/[0.03] p-6 shadow-xl shadow-black/10 transition duration-300 hover:-translate-y-1 hover:border-cyan-300/25 hover:shadow-2xl hover:shadow-cyan-500/10">
-          <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-cyan-300/20 bg-gradient-to-br from-cyan-300/20 to-sky-500/10 shadow-lg shadow-cyan-500/10">
-    <path d="M4 19h16" />
-    <path d="M6 16V10" />
-    <path d="M10 16V6" />
-    <path d="M14 16v-3" />
-    <path d="M18 16V8" />
+  <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-cyan-400/10 border border-cyan-400/20 shadow-lg shadow-cyan-500/10">
+  {service.icon === 'chart' && (
+  <svg viewBox="0 0 24 24" className="h-6 w-6 text-cyan-300">
+  <path d="M4 19h16" stroke="currentColor" strokeWidth="1.8" fill="none" />
+  <path d="M6 16V10" stroke="currentColor" strokeWidth="1.8" fill="none" />
+  <path d="M10 16V6" stroke="currentColor" strokeWidth="1.8" fill="none" />
+  <path d="M14 16v-3" stroke="currentColor" strokeWidth="1.8" fill="none" />
+  <path d="M18 16V8" stroke="currentColor" strokeWidth="1.8" fill="none" />
   </svg>
+)}
+
+{service.icon === 'target' && (
+  <svg viewBox="0 0 24 24" className="h-6 w-6 text-cyan-300">
+    <circle cx="12" cy="12" r="8" stroke="currentColor" strokeWidth="1.8" fill="none" />
+    <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.8" fill="none" />
+  </svg>
+)}
+
+{service.icon === 'screen' && (
+  <svg viewBox="0 0 24 24" className="h-6 w-6 text-cyan-300">
+    <rect x="3" y="4" width="18" height="12" rx="2" stroke="currentColor" strokeWidth="1.8" fill="none" />
+    <path d="M8 20h8" stroke="currentColor" strokeWidth="1.8" />
+  </svg>
+)}
+
+{service.icon === 'bolt' && (
+  <svg viewBox="0 0 24 24" className="h-6 w-6 text-cyan-300">
+    <path d="M13 2L3 14h7l-1 8 10-12h-7z" stroke="currentColor" strokeWidth="1.8" fill="none" />
+  </svg>
+)}
 </div>
-                <h3 className="text-xl font-semibold">{service.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-white/65">{service.description}</p>
+              <h3 className="text-[1.65rem] font-semibold tracking-tight text-white">{service.title}</h3>
+               <p className="mt-3 text-[15px] leading-8 text-white/65">{service.description}</p>
               </div>
             ))}
           </div>
