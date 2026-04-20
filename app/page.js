@@ -146,16 +146,36 @@ export default function Home() {
   className="mt-6 w-full rounded-2xl border border-white/10"
 />
                 <div className="mt-4 rounded-3xl border border-white/10 bg-white/5 p-5">
-                  <div className="mb-4 flex items-center justify-between text-sm text-white/60">
-                    <span>Desempeño comercial</span>
-                    <span>Últimos 6 meses</span>
-                  </div>
-                  <div className="flex h-40 items-end gap-3">
-                    {[35, 48, 46, 63, 72, 84].map((height, i) => (
-                      <div key={i} className="flex-1 rounded-t-2xl bg-gradient-to-t from-cyan-500/40 to-cyan-300" style={{ height: `${height}%` }} />
-                    ))}
-                  </div>
-                </div>
+                 <div className="mb-4 flex items-center justify-between text-sm text-white/60">
+  <span className="font-medium text-white/80">Desempeño comercial</span>
+  <span>Últimos 6 meses</span>
+</div>
+
+<div className="mb-3 text-xs text-cyan-300/90">
+  +18% vs periodo anterior
+</div>
+
+<div className="relative overflow-hidden rounded-2xl bg-white/[0.03] p-4">
+  <div className="absolute inset-0 opacity-10">
+    <div className="mt-8 border-t border-white" />
+    <div className="mt-8 border-t border-white" />
+    <div className="mt-8 border-t border-white" />
+  </div>
+
+  <div className="relative flex h-48 items-end gap-4 px-2">
+    {[38, 48, 46, 63, 72, 84].map((height, i) => (
+      <div key={i} className="flex flex-1 flex-col items-center justify-end gap-2">
+  <div
+  className="w-full rounded-t-3xl bg-gradient-to-t from-cyan-600/70 via-cyan-400/60 to-cyan-300/50 shadow-[0_0_20px_rgba(34,211,238,0.18)] transition-all duration-500"
+  style={{ height: `${height}%`, animation: 'grow 1s ease-out' }}
+/>
+        <span className="text-[11px] text-white/40 tracking-wide">
+          {["Ene", "Feb", "Mar", "Abr", "May", "Jun"][i]}
+        </span>
+      </div>
+    ))}
+  </div>
+</div>
 
                 <div className="mt-4 rounded-3xl border border-white/10 bg-gradient-to-r from-cyan-400/15 to-sky-400/10 p-5 text-sm text-white/75">
                   Detecta oportunidades, corrige inversión y mejora resultados comerciales desde una sola vista.
