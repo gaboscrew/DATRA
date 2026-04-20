@@ -196,7 +196,7 @@ export default function Home() {
 
           <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {services.map((service) => (
-             <div key={service.title} className="rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/8 to-white/[0.03] p-6 shadow-xl shadow-black/10 transition duration-300 hover:-translate-y-1 hover:border-cyan-300/25 hover:shadow-2xl hover:shadow-cyan-500/10">
+             <div key={service.title} className="rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/8 to-white/[0.03] p-6 shadow-xl shadow-black/10">
   <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-cyan-400/10 border border-cyan-400/20 shadow-lg shadow-cyan-500/10">
   {service.icon === 'chart' && (
   <svg viewBox="0 0 24 24" className="h-6 w-6 text-cyan-300">
