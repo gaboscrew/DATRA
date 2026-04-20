@@ -165,10 +165,10 @@ export default function Home() {
   <div className="relative flex h-48 items-end gap-4 px-2">
     {[38, 48, 46, 63, 72, 84].map((height, i) => (
       <div key={i} className="flex flex-1 flex-col items-center justify-end gap-2">
-  <div
-  className="w-full rounded-t-3xl bg-gradient-to-t from-cyan-600/70 via-cyan-400/60 to-cyan-300/50 shadow-[0_0_20px_rgba(34,211,238,0.18)] transition-all duration-500"
-  style={{ height: `${height}%`, animation: 'grow 1s ease-out' }}
-/>
+  168 <div
+169   className="w-full rounded-t-3xl bg-gradient-to-t from-cyan-600/70 via-cyan-400/60 to-cyan-300/50 shadow-[0_0_20px_rgba(34,211,238,0.18)] transition-all duration-500"
+170   style={{ height: `${height}%`, animation: 'grow 1s ease-out' }}
+171 ></div>
         <span className="text-[11px] text-white/40 tracking-wide">
           {["Ene", "Feb", "Mar", "Abr", "May", "Jun"][i]}
         </span>
@@ -176,12 +176,11 @@ export default function Home() {
     ))}
   </div>
 </div>
-
+</div>
                 <div className="mt-4 rounded-3xl border border-white/10 bg-gradient-to-r from-cyan-400/15 to-sky-400/10 p-5 text-sm text-white/75">
                   Detecta oportunidades, corrige inversión y mejora resultados comerciales desde una sola vista.
                 </div>
               </div>
-            </div>
           </div>
         </section>
 
