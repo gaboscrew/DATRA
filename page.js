@@ -149,7 +149,7 @@ export default function Home() {
                 </div>
 
                 <div className="mt-4 rounded-3xl border border-white/10 bg-gradient-to-r from-cyan-400/15 to-sky-400/10 p-5 text-sm text-white/75">
-                  Detecta oportunidades, corrige inversión y mejora resultados comerciales desde una sola vista.
+                 Menos reportes, más decisiones.
                 </div>
               </div>
             </div>
