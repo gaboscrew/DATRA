@@ -165,10 +165,10 @@ export default function Home() {
   <div className="relative flex h-48 items-end gap-4 px-2">
     {[38, 48, 46, 63, 72, 84].map((height, i) => (
       <div key={i} className="flex flex-1 flex-col items-center justify-end gap-2">
-  168 <div
-169   className="w-full rounded-t-3xl bg-gradient-to-t from-cyan-600/70 via-cyan-400/60 to-cyan-300/50 shadow-[0_0_20px_rgba(34,211,238,0.18)] transition-all duration-500"
-170   style={{ height: `${height}%`, animation: 'grow 1s ease-out' }}
-171 ></div>
+  <div
+className="w-full rounded-t-3xl bg-gradient-to-t from-cyan-600/70 via-cyan-400/60 to-cyan-300/50 shadow-[0_0_20px_rgba(34,211,238,0.18)] transition-all duration-500"
+style={{ height: `${height}%`, animation: 'grow 1s ease-out' }}
+></div>
         <span className="text-[11px] text-white/40 tracking-wide">
           {["Ene", "Feb", "Mar", "Abr", "May", "Jun"][i]}
         </span>
