@@ -107,6 +107,13 @@ export default function Home() {
                 </div>
               ))}
             </div>
+                            <div className="mt-8 max-w-2xl overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
+  <img
+    src="/dashboard-market.png"
+    alt="Dashboard de mercado"
+    className="block w-full rounded-2xl"
+  />
+</div>
           </div>
           <div className="relative self-start">
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5 shadow-2xl shadow-cyan-500/10 backdrop-blur">
