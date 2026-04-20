@@ -106,11 +106,11 @@ export default function Home() {
               ))}
             </div>
           </div>
-<div className="mt-10">
+<div className="mt-8 max-w-2xl">
   <img
     src="/dashboard-market.png"
     alt="Dashboard de mercado"
-    className="w-full rounded-2xl border border-white/10 shadow-2xl"
+    className="block w-full rounded-2xl border border-white/10 shadow-2xl"
   />
 </div>
 
