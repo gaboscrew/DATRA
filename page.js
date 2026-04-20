@@ -97,7 +97,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="mt-12 grid max-w-2xl grid-cols-3 gap-4">
+            <div className="mt-10 grid max-w-2xl grid-cols-3 gap-4">
               {metrics.map((item) => (
                 <div key={item.label} className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-2xl shadow-black/10">
                   <div className="text-3xl font-semibold text-cyan-300">{item.value}</div>
