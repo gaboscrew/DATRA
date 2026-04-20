@@ -132,6 +132,13 @@ export default function Home() {
                     <div className="mt-1 text-xs text-cyan-300">calidad optimizada</div>
                   </div>
                 </div>
+                <div className="mt-10">
+  <img
+    src="/dashboard-market.png"
+    alt="Dashboard de mercado"
+    className="w-full rounded-2xl border border-white/10 shadow-2xl hover:scale-[1.02] transition duration-300"
+  />
+</div>
 
                 <div className="mt-4 rounded-3xl border border-white/10 bg-white/5 p-5">
                   <div className="mb-4 flex items-center justify-between text-sm text-white/60">
@@ -168,12 +175,6 @@ export default function Home() {
   </div>
 <div className="mt-12 relative">
 <div className="relative grid gap-8 lg:grid-cols-3 items-start bg-[#081a24] p-6 rounded-[2rem] border border-white/10 backdrop-blur">
-  <img
-    src="/dashboard-market.png"
-    alt="Dashboard de analítica de mercado"
-    className="lg:col-span-2 rounded-[2rem] border border-white/10 shadow-2xl shadow-cyan-500/20 transition duration-300 hover:scale-[1.03]"
-  />
-
   <img
     src="/dashboard-leads.png"
     alt="Dashboard de leads y conversión"
