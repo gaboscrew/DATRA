@@ -105,7 +105,6 @@ export default function Home() {
                 </div>
               ))}
             </div>
-          </div>
 <div className="mt-8 max-w-2xl">
   <img
     src="/dashboard-market.png"
