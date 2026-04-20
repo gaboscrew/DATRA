@@ -112,7 +112,7 @@ export default function Home() {
     className="block w-full rounded-2xl border border-white/10 shadow-2xl"
   />
 </div>
-
+</div>
         <div className="relative self-start">
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5 shadow-2xl shadow-cyan-500/10 backdrop-blur">
               <div className="rounded-[1.5rem] border border-cyan-300/10 bg-[#081424] p-6">
