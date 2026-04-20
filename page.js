@@ -47,7 +47,7 @@ export default function Home() {
             </div>
             <div>
               <div className="text-xl font-semibold tracking-tight">Datra</div>
-              <div className="text-xs uppercase tracking-[0.28em] text-white/45">Menos reportes, más decisiones.</div>
+             <div className="text-xs uppercase tracking-[0.28em] text-white/45">MENOS REPORTES. MÁS DECISIONES.</div>
             </div>
           </div>
 
