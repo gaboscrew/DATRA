@@ -132,7 +132,11 @@ export default function Home() {
                     <div className="mt-1 text-xs text-cyan-300">calidad optimizada</div>
                   </div>
                 </div>
-
+                 <img
+  src="/dashboard-leads.png"
+  alt="Dashboard de leads"
+  className="mt-6 w-full rounded-2xl border border-white/10"
+/>
                 <div className="mt-4 rounded-3xl border border-white/10 bg-white/5 p-5">
                   <div className="mb-4 flex items-center justify-between text-sm text-white/60">
                     <span>Desempeño comercial</span>
