@@ -164,18 +164,25 @@ export default function Home() {
 
   <div className="relative flex h-40 items-end gap-4 px-2">
    {[10, 18, 25, 40, 60, 84].map((height, i) => (
-      <div key={i} className="flex h-full flex-1 flex-col items-center justify-end gap-2 px-1">
-     <span className="text-xs text-cyan-300 font-semibold mb-1">
-  {height}%
-</span>
-<div
-  className="w-full min-h-[12px] rounded-t-3xl bg-gradient-to-t from-cyan-500 via-cyan-400 to-cyan-300 shadow-[0_0_25px_rgba(34,211,238,0.35)] transition-all duration-700 hover:scale-[1.05]"
-style={{ height: `${height}%`, animation: `grow 0.8s ease-out ${i * 0.1}s both` }}
-></div>
-        <span className="text-[11px] text-white/40 tracking-wide">
-          {["Ene", "Feb", "Mar", "Abr", "May", "Jun"][i]}
-        </span>
-      </div>
+     <div key={i} className="flex h-full flex-1 flex-col items-center gap-2">
+  <span className="text-xs text-cyan-300 font-semibold mb-1">
+    {height}%
+  </span>
+
+  <div className="relative flex h-[140px] w-full items-end">
+    <div
+      className="w-full rounded-t-3xl bg-gradient-to-t from-cyan-500 via-cyan-400 to-cyan-300 shadow-[0_0_25px_rgba(34,211,238,0.35)] transition-all duration-700"
+      style={{
+        height: `${height}%`,
+        animation: `grow 0.8s ease-out ${i * 0.12}s both`,
+      }}
+    ></div>
+  </div>
+
+  <span className="text-[11px] text-white/40 tracking-wide">
+    {["Ene", "Feb", "Mar", "Abr", "May", "Jun"][i]}
+  </span>
+</div>
     ))}
   </div>
 </div>
