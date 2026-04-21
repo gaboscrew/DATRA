@@ -182,6 +182,7 @@ style={{ height: `${height}%`, animation: 'grow 1s ease-out' }}
                 </div>
               </div>
           </div>
+      </div>
         </section>
 
         <section id="services" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
