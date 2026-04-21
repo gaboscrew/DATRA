@@ -169,8 +169,8 @@ export default function Home() {
   {height}%
 </span>
 <div
-  className="w-full min-h-[12px] rounded-t-3xl bg-gradient-to-t from-cyan-600/70 via-cyan-400/60 to-cyan-300/50 shadow-[0_0_20px_rgba(34,211,238,0.18)] transition-all duration-500"
-  style={{ height: `${height}%`, animation: 'grow 1s ease-out' }}
+  className="w-full min-h-[12px] rounded-t-3xl bg-gradient-to-t from-cyan-500 via-cyan-400 to-cyan-300 shadow-[0_0_25px_rgba(34,211,238,0.35)] transition-all duration-700 hover:scale-[1.05]"
+ style={{ height: `${height}%`, animation: `grow 0.8s ease-out ${i * 0.1}s both` }}
 ></div>
         <span className="text-[11px] text-white/40 tracking-wide">
           {["Ene", "Feb", "Mar", "Abr", "May", "Jun"][i]}
