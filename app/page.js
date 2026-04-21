@@ -163,7 +163,7 @@ export default function Home() {
   </div>
 
   <div className="relative flex h-40 items-end gap-4 px-2">
-   {[22, 35, 31, 52, 68, 84].map((height, i) => (
+   {[10, 18, 25, 40, 60, 84].map((height, i) => (
       <div key={i} className="flex h-full flex-1 flex-col items-center justify-end gap-2 px-1">
      <span className="text-xs text-cyan-300 font-semibold mb-1">
   {height}%
