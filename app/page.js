@@ -327,11 +327,11 @@ export default function Home() {
         Solicitar propuesta
       </button>
     </form>
-   <a
- href="https://wa.me/5213351074205?text=Hola,%20quiero%20una%20propuesta%20para%20mi%20agencia%20automotriz.%20%C2%BFPodemos%20hablar?"
+  <a
+  href="https://wa.me/525569760932?text=Hola%2C%20quiero%20informacion%20sobre%20Datra"
   target="_blank"
-  rel="noreferrer"
-  className="fixed bottom-6 right-6 z-30 flex items-center gap-3 rounded-full border border-emerald-400/30 bg-[#0b1a14]/95 px-5 py-3 text-sm font-semibold text-white shadow-2xl shadow-emerald-500/20 transition hover:scale-[1.02] hover:bg-[#10231a]"
+  rel="noopener noreferrer"
+  className="fixed bottom-6 right-6 z-30 flex items-center gap-3 rounded-full border border-emerald-400/30 bg-[#0b1a14]/95 px-5 py-3 text-sm font-medium text-white shadow-lg shadow-cyan-500/20 backdrop-blur"
 >
   <span className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-500 text-white">
     <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current" aria-hidden="true">
