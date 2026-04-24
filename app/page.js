@@ -69,7 +69,7 @@ export default function Home() {
       </header>
 
       <main className="relative">
-        <section className="mx-auto grid max-w-7xl gap-12 px-6 pb-20 pt-16 lg:grid-cols-[1.15fr_0.85fr] items-stretch">
+        <section className="mx-auto grid max-w-7xl gap-12 px-6 pb-8 pt-16 lg:grid-cols-[1.15fr_0.85fr] items-stretch">
          <div className="max-w-3xl h-full">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-white/5 px-4 py-2 text-sm text-cyan-200">
               <span className="h-2 w-2 rounded-full bg-cyan-300" />
