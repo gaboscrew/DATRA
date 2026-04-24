@@ -225,10 +225,13 @@ export default function Home() {
         
           <div className="max-w-2xl">
             <div className="text-sm uppercase tracking-[0.3em] text-cyan-300/80">Servicios</div>
-            <h2 className="mt-4 text-3xl font-semibold tracking-tight md:text-4xl">Inteligencia comercial aplicada a ventas automotrices.</h2>
-            <p className="mt-4 text-lg text-white/65">
-              Diseñamos soluciones útiles para dirección, mercadotecnia y equipos comerciales que necesitan claridad, velocidad y control.
-            </p>
+           <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white md:text-4xl">
+  Aumenta tus ventas con datos reales, no con intuición.
+</h2>
+
+<p className="mt-4 text-lg text-white/65">
+  DATRA te muestra dónde estás perdiendo ventas, qué modelos impulsar y cómo optimizar tu inversión comercial en tiempo real.
+</p>
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
@@ -243,7 +246,7 @@ export default function Home() {
   <path d="M14 16v-3" stroke="currentColor" strokeWidth="1.8" fill="none" />
   <path d="M18 16V8" stroke="currentColor" strokeWidth="1.8" fill="none" />
   </svg>
-)}
+              
 
 {service.icon === 'target' && (
   <svg viewBox="0 0 24 24" className="h-6 w-6 text-cyan-300">
@@ -265,15 +268,19 @@ export default function Home() {
   </svg>
 )}
 </div>
-              <h3 className="text-[1.65rem] font-semibold tracking-tight text-white">{service.title}</h3>
-               <p className="mt-3 text-[15px] leading-8 text-white/65">{service.description}</p>
-              </div>
+     <div className="mt-4 text-lg font-semibold text-white">
+  {service.title}
+</div>
+
+<p className="mt-2 text-sm text-white/65">
+  {service.description}
+</p>  
+              
             ))}
           </div>
         </section>
 
-        <section id="why" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-          <div className="grid gap-8 lg:grid-cols-2">
+ 
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8">
               <div className="text-sm uppercase tracking-[0.3em] text-cyan-300/80">Por qué Datra</div>
               <h2 className="mt-4 text-3xl font-semibold tracking-tight">Una firma de datos con visión comercial.</h2>
@@ -292,26 +299,49 @@ export default function Home() {
             </div>
 
             <div className="rounded-[2rem] border border-cyan-300/10 bg-gradient-to-br from-cyan-400/10 to-sky-500/5 p-8">
-              <div className="text-sm uppercase tracking-[0.3em] text-cyan-300/80">Resultados</div>
-              <h2 className="mt-4 text-3xl font-semibold tracking-tight">Más enfoque. Más control. Más crecimiento.</h2>
+             <div className="text-sm uppercase tracking-[0.3em] text-cyan-300/80">
+  RESULTADOS REALES
+</div>
 
-              <div className="mt-10 grid gap-4 sm:grid-cols-2">
-                <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
-                  <div className="text-4xl font-semibold text-cyan-300">01</div>
-                  <p className="mt-3 text-white/70">Entendemos tu mercado y tus oportunidades reales.</p>
-                </div>
-                <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
-                  <div className="text-4xl font-semibold text-cyan-300">02</div>
-                  <p className="mt-3 text-white/70">Ordenamos la información crítica para dirección y ventas.</p>
-                </div>
-                <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
-                  <div className="text-4xl font-semibold text-cyan-300">03</div>
-                  <p className="mt-3 text-white/70">Convertimos datos dispersos en decisiones accionables.</p>
-                </div>
-                <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
-                  <div className="text-4xl font-semibold text-cyan-300">04</div>
-                  <p className="mt-3 text-white/70">Diseñamos sistemas escalables para crecer con orden.</p>
-                </div>
+<h2 className="mt-4 text-3xl font-semibold tracking-tight text-white">
+  Esto es lo que cambia cuando usas datos bien aplicados
+</h2>
+
+<div className="mt-10 grid gap-4 sm:grid-cols-2">
+  <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
+    <div className="text-4xl font-semibold text-cyan-300">+30%</div>
+    <p className="mt-3 text-white/70">Incremento en conversión de leads a ventas.</p>
+  </div>
+
+  <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
+    <div className="text-4xl font-semibold text-cyan-300">-25%</div>
+    <p className="mt-3 text-white/70">Reducción en fuga de oportunidades comerciales.</p>
+  </div>
+
+  <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
+    <div className="text-4xl font-semibold text-cyan-300">+40%</div>
+    <p className="mt-3 text-white/70">Mejor aprovechamiento del presupuesto de marketing.</p>
+  </div>
+
+  <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
+    <div className="text-4xl font-semibold text-cyan-300">Tiempo real</div>
+    <p className="mt-3 text-white/70">Decisiones comerciales basadas en datos actualizados.</p>
+  </div>
+</div>
+               <div className="mt-12 text-center">
+  <a
+    href="https://wa.me/525569760932?text=Hola%2C%20quiero%20una%20demo%20para%20ver%20d%C3%B3nde%20estoy%20perdiendo%20ventas"
+target="_blank"
+rel="noopener noreferrer"
+   className="inline-block rounded-2xl bg-cyan-300 px-8 py-4 text-lg font-semibold text-slate-900 shadow-lg transition hover:scale-105 hover:bg-cyan-200 animate-pulse"
+  >
+    Ver oportunidades en mi agencia
+  </a>
+
+  <p className="mt-4 text-sm text-white/60">
+    Agenda una demo y detecta oportunidades en tu agencia en minutos.
+  </p>
+</div>
               </div>
             </div>
           </div>
