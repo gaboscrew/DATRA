@@ -276,7 +276,7 @@ export default function Home() {
   {service.description}
 </p>  
               
-            ))}
+           ))}
           </div>
         </section>
 
