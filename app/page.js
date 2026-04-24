@@ -298,53 +298,54 @@ export default function Home() {
                 ))}
               </div>
             </div>
-
-            <div className="rounded-[2rem] border border-cyan-300/10 bg-gradient-to-br from-cyan-400/10 to-sky-500/5 p-8">
-             <div className="text-sm uppercase tracking-[0.3em] text-cyan-300/80">
-  RESULTADOS REALES
-</div>
-
-<h2 className="mt-4 text-3xl font-semibold tracking-tight text-white">
-  Esto es lo que cambia cuando usas datos bien aplicados
-</h2>
-
-<div className="mt-10 grid gap-4 sm:grid-cols-2">
-  <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
-    <div className="text-4xl font-semibold text-cyan-300">+30%</div>
-    <p className="mt-3 text-white/70">Incremento en conversión de leads a ventas.</p>
-  </div>
-
-  <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
-    <div className="text-4xl font-semibold text-cyan-300">-25%</div>
-    <p className="mt-3 text-white/70">Reducción en fuga de oportunidades comerciales.</p>
-  </div>
-
-  <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
-    <div className="text-4xl font-semibold text-cyan-300">+40%</div>
-    <p className="mt-3 text-white/70">Mejor aprovechamiento del presupuesto de marketing.</p>
-  </div>
-
-  <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
-    <div className="text-4xl font-semibold text-cyan-300">Tiempo real</div>
-    <p className="mt-3 text-white/70">Decisiones comerciales basadas en datos actualizados.</p>
-  </div>
-</div>
-               <div className="mt-12 text-center">
-  <a
-    href="https://wa.me/525569760932?text=Hola%2C%20quiero%20una%20demo%20para%20ver%20d%C3%B3nde%20estoy%20perdiendo%20ventas"
-target="_blank"
-rel="noopener noreferrer"
-   className="inline-block rounded-2xl bg-cyan-300 px-8 py-4 text-lg font-semibold text-slate-900 shadow-lg transition hover:scale-105 hover:bg-cyan-200 animate-pulse"
-  >
-    Ver oportunidades en mi agencia
-  </a>
-
-  <p className="mt-4 text-sm text-white/60">
-    Agenda una demo y detecta oportunidades en tu agencia en minutos.
-  </p>
-</div>
+<section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+  <div className="rounded-[2rem] border border-cyan-300/10 bg-gradient-to-br from-cyan-400/10 to-sky-500/5 p-8">
+    <div className="text-sm uppercase tracking-[0.3em] text-cyan-300/80">
+      RESULTADOS REALES
     </div>
-        </section>
+
+    <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white">
+      Esto es lo que cambia cuando usas datos bien aplicados
+    </h2>
+
+    <div className="mt-10 grid gap-4 sm:grid-cols-2">
+      <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
+        <div className="text-4xl font-semibold text-cyan-300">+30%</div>
+        <p className="mt-3 text-white/70">Incremento en conversión de leads a ventas.</p>
+      </div>
+
+      <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
+        <div className="text-4xl font-semibold text-cyan-300">-25%</div>
+        <p className="mt-3 text-white/70">Reducción en fuga de oportunidades comerciales.</p>
+      </div>
+
+      <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
+        <div className="text-4xl font-semibold text-cyan-300">+40%</div>
+        <p className="mt-3 text-white/70">Mejor aprovechamiento del presupuesto de marketing.</p>
+      </div>
+
+      <div className="rounded-3xl border border-white/10 bg-[#081424] p-6">
+        <div className="text-4xl font-semibold text-cyan-300">Tiempo real</div>
+        <p className="mt-3 text-white/70">Decisiones comerciales basadas en datos actualizados.</p>
+      </div>
+    </div>
+
+    <div className="mt-12 text-center">
+      <a
+        href="https://wa.me/525569760932?text=Hola%2C%20quiero%20una%20demo%20para%20ver%20d%C3%B3nde%20estoy%20perdiendo%20ventas"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block rounded-2xl bg-cyan-300 px-8 py-4 text-lg font-semibold text-slate-900 shadow-lg transition hover:scale-105 hover:bg-cyan-200 animate-pulse"
+      >
+        Ver oportunidades en mi agencia
+      </a>
+
+      <p className="mt-4 text-sm text-white/60">
+        Agenda una demo y detecta oportunidades en tu agencia en minutos.
+      </p>
+    </div>
+  </div>
+</section>
 
    <section id="contact" className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
   <div className="rounded-[2.5rem] border border-cyan-300/15 bg-gradient-to-br from-[#0a1930] to-[#07101d] p-8 shadow-2xl shadow-cyan-500/10 md:p-12">
