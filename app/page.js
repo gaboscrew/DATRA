@@ -69,8 +69,8 @@ export default function Home() {
       </header>
 
       <main className="relative">
-        <section className="mx-auto grid max-w-7xl gap-12 px-6 pb-20 pt-16 lg:grid-cols-[1.15fr_0.85fr] lg:px-8 lg:pb-28 lg:pt-24">
-          <div className="max-w-3xl">
+        <section className="mx-auto grid max-w-7xl gap-12 px-6 pb-20 pt-16 lg:grid-cols-[1.15fr_0.85fr] items-stretch">
+         <div className="max-w-3xl h-full">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-white/5 px-4 py-2 text-sm text-cyan-200">
               <span className="h-2 w-2 rounded-full bg-cyan-300" />
               Data intelligence para agencias automotrices
@@ -120,7 +120,7 @@ export default function Home() {
   />
 </div>
           </div>
-          <div className="relative self-start">
+          <div className="relative h-full flex flex-col justify-between">
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5 shadow-2xl shadow-cyan-500/10 backdrop-blur">
               <div className="rounded-[1.5rem] border border-cyan-300/10 bg-[#081424] p-6">
                 <div className="flex items-center justify-between">
