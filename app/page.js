@@ -343,9 +343,7 @@ rel="noopener noreferrer"
     Agenda una demo y detecta oportunidades en tu agencia en minutos.
   </p>
 </div>
-              </div>
-            </div>
-          </div>
+   
         </section>
 
    <section id="contact" className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
