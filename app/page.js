@@ -76,28 +76,33 @@ export default function Home() {
               Data intelligence para agencias automotrices
             </div>
 
-            <h1 className="max-w-4xl text-5xl font-semibold leading-tight tracking-tight text-white md:text-6xl lg:text-7xl">
-  Convierte datos automotrices en <span className="text-cyan-300">decisiones que venden</span>.
+         <h1 className="max-w-4xl text-5xl font-semibold leading-tight tracking-tight text-white md:text-6xl lg:text-6xl">
+  Estás perdiendo ventas… <span className="text-cyan-300">y no sabes dónde</span>.
 </h1>
 
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70 md:text-xl">
-  Visualiza mercado, ventas, leads y desempeño comercial en un solo dashboard diseñado para agencias automotrices.
+<p className="mt-6 max-w-2xl text-lg leading-8 text-white/70 md:text-xl">
+  DATRA conecta mercado y CRM para decirte exactamente qué está frenando tus ventas y dónde actuar primero.
 </p>
 
-            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <a
-                href="#contact"
-                className="rounded-2xl bg-cyan-300 px-6 py-3 text-center text-base font-semibold text-slate-950 transition hover:scale-[1.02]"
-              >
-               Solicitar diagnóstico gratis
-              </a>
-              <a
-                href="#services"
-                className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-center text-base font-medium text-white transition hover:bg-white/10"
-              >
-                Ver ejemplo real
-              </a>
-            </div>
+<p className="mt-4 text-sm text-cyan-300/80">
+  Mercado + CRM en una sola vista ejecutiva.
+</p>
+
+<div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
+  <a
+    href="#contact"
+    className="rounded-2xl bg-cyan-300 px-6 py-3 text-center text-base font-semibold text-slate-950 transition hover:scale-[1.02]"
+  >
+    Detectar qué está frenando mis ventas
+  </a>
+
+  <a
+    href="#services"
+    className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-center text-base font-medium text-white transition hover:bg-white/10"
+  >
+    Ver cómo funciona con datos reales
+  </a>
+</div>
 
             <div className="mt-12 grid max-w-2xl grid-cols-3 gap-4">
               {metrics.map((item) => (
