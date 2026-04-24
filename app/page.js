@@ -274,9 +274,10 @@ export default function Home() {
 
 <p className="mt-2 text-sm text-white/65">
   {service.description}
-</p>  
-              
-           ))}
+</p>
+
+</div>
+))}
           </div>
         </section>
 
