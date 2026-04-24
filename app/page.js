@@ -246,8 +246,8 @@ export default function Home() {
   <path d="M14 16v-3" stroke="currentColor" strokeWidth="1.8" fill="none" />
   <path d="M18 16V8" stroke="currentColor" strokeWidth="1.8" fill="none" />
   </svg>
+  )}                        
               
-
 {service.icon === 'target' && (
   <svg viewBox="0 0 24 24" className="h-6 w-6 text-cyan-300">
     <circle cx="12" cy="12" r="8" stroke="currentColor" strokeWidth="1.8" fill="none" />
